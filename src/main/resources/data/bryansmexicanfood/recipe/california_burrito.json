@@ -1,19 +1,17 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "pattern": [
-    "###",
-    "#%#",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:wheat"
+  "ingredients": [
+    {
+      "item": "bryansmexicanfood:tortilla"
     },
-    "%": {
-      "item": "minecraft:milk_bucket"
+    {
+      "item": "bryansmexicanfood:french_fries"
+    },
+    {
+      "item": "minecraft:cooked_beef"
     }
-  },
+  ],
   "result": {
     "id": "bryansmexicanfood:california_burrito",
     "count": 1

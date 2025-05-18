@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "bryansmexicanfood:flour"
+    }
+  },
+  "result": {
+    "id": "bryansmexicanfood:tortilla",
+    "count": 1
+  }
+}

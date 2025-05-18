@@ -19,6 +19,11 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.CALIFORNIA_BURRITO);
                         entries.add(ModItems.SAUCED_CALIFORNIA_BURRITO);
+                        entries.add(ModItems.FLOUR);
+                        entries.add(ModItems.TORTILLA);
+                        entries.add(ModItems.CUT_POTATOES);
+                        entries.add(ModItems.FRENCH_FRIES);
+
                     }).build());
 
 
