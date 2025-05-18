@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "bryansmexicanfood",
+	"version": "${version}",
+	"name": "Bryan's Mexican Food",
+	"description": "My 24/7 Mexican food in Minecraft",
+	"authors": [
+		"Aquamarijn!"
+	],
+	"contact": {
+		"homepage": "https://bryansmexicanfood.com",
+		"sources": "https://github.com/PsychiVronti/bryans-mexican-food-template-1.21.1"
+	},
+	"license": "MIT",
+	"icon": "assets/bryansmexicanfood/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.aquamarijn.bryansmexicanfood.BryansMexicanFood"
+		],
+		"fabric-datagen": [
+			"com.aquamarijn.bryansmexicanfood.BryansMexicanFoodDataGenerator"
+		],
+		"client": [
+			"com.aquamarijn.bryansmexicanfood.BryansMexicanFoodClient"
+		]
+	},
+	"mixins": [
+		"bryansmexicanfood.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

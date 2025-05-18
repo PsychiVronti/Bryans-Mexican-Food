@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#%#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:wheat"
+    },
+    "%": {
+      "item": "minecraft:milk_bucket"
+    }
+  },
+  "result": {
+    "id": "bryansmexicanfood:california_burrito",
+    "count": 1
+  }
+}
